@@ -3,7 +3,7 @@ defmodule Noizu.Ecto.Entities.MixProject do
 
   def project do
     [
-      app: :noizu_labs_ecto_entities,
+      app: :noizu_labs_entities_ecto,
       name: "NoizuLabs Entities with Ecto",
       version: "0.1.0",
       elixir: "~> 1.14",
