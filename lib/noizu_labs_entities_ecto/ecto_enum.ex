@@ -15,6 +15,7 @@ defmodule Noizu.Ecto.Entity.Enum do
       use Ecto.Type
 
       def enum_name(), do: @enum_name
+      def values(), do: @values
 
       def create(:postgres, types) do
         """
